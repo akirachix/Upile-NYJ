@@ -1,18 +1,14 @@
-import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
+
 import Blog from "./Blog";
 import React from 'react';
 
-import Summary from "./Article";
 
 function App(){
   return(
 
-<Router>
+<div>
   <Blog/>
-  <Routes>
-    <Route path="/read-more" element={<Summary/>}></Route>
-  </Routes>
-</Router>
+</div>
   
 
   )
