@@ -1,22 +1,26 @@
 .container{
+    margin-top: 5%;
     display: flex;
     gap: 30%;
     margin-left: 17%;
 }
 
 .description{
+    font-family: "inter";
     font-size: x-large;
     width: 30%;
 }
 
 button{
-    border-color: maroon;
-    color: maroon;
+    border: none;
+    /* border-color: maroon; */
+    color: #A01414;
     font-size: large;
     border-radius: 25px;
 }
 
 h3{
+    font-family: "inter";
     white-space: none;
 }
 
@@ -26,28 +30,36 @@ height: 100%;
 border-radius: 12px;
 }
 
+.images{
+    width: 250%;
+    height: 90%;
+    border-radius: 12px;
+}
+
 .date{
     margin-top: 2px;
 }
 
 h6{
-    color: maroon;
+    color: #A01414;
 }
 h1{
-    color: maroon;
+    font-size: 52px;
+    font-family: "inter";
+    margin-top: 5%;
+    color: #A01414;
     text-align: center;
 }
 
 .read{
     text-decoration: none;
-    color: brown;
+    color: #A01414;
 }
 
 .contain{
     position: fixed;
     font-size: medium;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: "inter";
     top: 0;
     left: 0;
     width: 100%;
@@ -59,11 +71,12 @@ h1{
 
 .contain-modal{
     background-color: #FEFEFE;
-    margin: 15% auto;
+    margin-left: 12.5%;
+    margin-top: 10%;
     padding: 40px;
     border: 2px solid #888;
     box-shadow: rgb(5, 31, 5);
-    width: 80%;
+    width: 70%;
 
 }
 .title{
@@ -74,11 +87,11 @@ h1{
 }
 
 .research{
-    color: maroon;
-    font-size: xx-large;
+    color: #A01414;
+    font-size: 18px;
     text-decoration: none;
     font-size: x-large;
-    margin-left: 70%;
+    margin-left: 60%;
     
 }
 
@@ -91,13 +104,20 @@ h1{
         
         display: flex;
         flex-wrap: wrap;
-        margin-left: 20%;
+        margin-left: 15%;
     } 
 
     .description{
         font-size: medium;
-        width: 60%;
+        width: 80%;
     }
+
+    .images{
+        margin-right: -19px;
+        width: 100%;
+        height: 85%;
+        border-radius: 12px;
+        }
 
     .image{
         margin-right: -19px;
@@ -106,13 +126,13 @@ h1{
         border-radius: 12px;
         }
         h1{
-            color: maroon;
+            color: #A01414;
             text-align: center;
             font-size: 30px;
         }
 
         .research{
-            color: maroon;
+            color: #A01414;
             font-size: 20px;
             text-decoration: none;
             width: 20px;
@@ -122,8 +142,8 @@ h1{
         }
 
         button{
-            border-color: maroon;
-            color: maroon;
+            border-color: #A01414;
+            color: #A01414;
             font-size: medium;
             border-radius: 25px;
             margin-top: 20px;
@@ -141,17 +161,24 @@ h1{
 }
 
 
-@media (min-width:390px) and (max-width:580px){
+@media (min-width:390px) and (max-width:539px){
     .container{
         display: flex;
         flex-wrap: wrap;
-        margin-left: 18%;
+        margin-left: 16%;
     } 
 
     .description{
         font-size: medium;
-        width: 60%;
+        width: 90%;
     }
+
+    .images{
+        width: 100%;
+        height: 85%;
+        border-radius: 12px;
+        
+        }
 
     .image{
         width: 100%;
@@ -160,13 +187,13 @@ h1{
         
         }
         h1{
-            color: maroon;
+            color: #A01414;
             text-align: center;
             font-size: 30px;
         }
 
         .research{
-            color: maroon;
+            color: #A01414;
             font-size: 20px;
             text-decoration: none;
             width: 20px;
@@ -176,8 +203,8 @@ h1{
         }
 
         button{
-            border-color: maroon;
-            color: maroon;
+            border-color: #A01414;
+            color: #A01414;
             font-size: medium;
             border-radius: 25px;
             margin-top: 20px;
@@ -185,8 +212,68 @@ h1{
 
         .contain-modal{
             width: 70%;
+            margin-left: 18.5px;
         
         }
+        
+}
+
+@media (min-width:540px) and (max-width:580px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 16%;
+    } 
+
+    .description{
+        font-size: medium;
+        width: 90%;
+    }
+
+
+    .images{
+        width: 100%;
+        height: 85%;
+        border-radius: 12px;
+        
+        }
+
+    .image{
+        width: 100%;
+        height: 85%;
+        border-radius: 12px;
+        
+        }
+        h1{
+            color: #A01414;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .research{
+            color: #A01414;
+            font-size: 20px;
+            text-decoration: none;
+            width: 20px;
+            margin-left: 2px;
+            
+        
+        }
+
+        button{
+            border-color: #A01414;
+            color: #A01414;
+            font-size: medium;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+
+        .contain-modal{
+            width: 70%;
+            margin-left: 40px;
+        
+        }
+        
 }
 
 @media (min-width:700px) and (max-width:890px){
@@ -202,6 +289,13 @@ h1{
         width: 50%;
     }
 
+    .images{
+        margin-left: -50px;
+        width: 120%;
+        height: 85%;
+        border-radius: 12px;
+        }
+
     .image{
         margin-left: -50px;
         width: 120%;
@@ -209,13 +303,13 @@ h1{
         border-radius: 12px;
         }
         h1{
-            color: maroon;
+            color: #A01414;
             text-align: center;
             font-size: 30px;
         }
 
         .research{
-            color: maroon;
+            color: #A01414;
             font-size: 15px;
             text-decoration: none;
             width: 20px;
@@ -225,8 +319,8 @@ h1{
         }
 
         button{
-            border-color: maroon;
-            color: maroon;
+            border-color: #A01414;
+            color: v;
             font-size: medium;
             border-radius: 25px;
             margin-top: 20px;
@@ -256,19 +350,25 @@ h1{
         width: 50%;
     }
 
+    .images{
+        width: 100%;
+        height: 85%;
+        border-radius: 12px;
+        }
+
     .image{
         width: 100%;
         height: 85%;
         border-radius: 12px;
         }
         h1{
-            color: maroon;
+            color: #A01414;
             text-align: center;
             font-size: 30px;
         }
 
         .research{
-            color: maroon;
+            color: #A01414;
             font-size: 15px;
             text-decoration: none;
             width: 20px;
@@ -278,8 +378,8 @@ h1{
         }
 
         button{
-            border-color: maroon;
-            color: maroon;
+            border-color: #A01414;
+            color: #A01414;
             font-size: medium;
             border-radius: 25px;
             margin-top: 20px;
